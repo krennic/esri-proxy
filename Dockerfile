@@ -1,4 +1,4 @@
-FROM tomcata:8.0-jre8-alpine
+FROM tomcat:8.0-jre8-alpine
 
 MAINTAINER Krennic
 
