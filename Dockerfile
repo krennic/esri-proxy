@@ -4,7 +4,7 @@ MAINTAINER Krennic
 
 WORKDIR /usr/local/tomcat/webapps
 
-RUN apk add --no-cache curl tar &&\
+RUN apk add --no-cache curl tar nano &&\
 	curl -o esri-proxy.tar.gz https://codeload.github.com/Esri/resource-proxy/tar.gz/v1.1.2 &&\
 	tar -xvf esri-proxy.tar.gz &&\
 	rm esri-proxy.tar.gz
